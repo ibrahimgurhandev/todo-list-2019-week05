@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  width: 50vw;
+}
+button {
+  width: 10vw;
+}
+.box {
+  width: 90%;
+  height: 300px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.clear {
+  margin-top: 20px;
+}
