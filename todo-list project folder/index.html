@@ -8,16 +8,25 @@
   </head>
   <body>
     <div class="container">
+      <h1>Create a To Do List</h1>
+
       <div class="add">
-        <input class="input" type="text" name="" />
-        <button id="btn">Add To List</button>
+        <input id="input" type="text" name="" />
+        <button id="addBtn">Add To List</button>
       </div>
       <div class="box">
-        <ul>
-          <li>dbsdbl</li>
+        <ul id="ulSection">
+          <!-- <li></li> -->
         </ul>
-        <button class="clear">Clear items</button>
       </div>
+      <p>Click on the items when completed</p>
+      <p>
+        How many items need to be completed:
+        <span id="NumItemsAdded">0</span> item
+      </p>
+      <button id="clearItems">Clear items</button>
+      <button id="clearAll">Clear completed items</button>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
