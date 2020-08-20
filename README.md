@@ -7,3 +7,6 @@
 
 I used my new Javascript knowledge to build a Simple
 to do list. 
+
+link to List
+https://mytodo-list-app.netlify.app/
